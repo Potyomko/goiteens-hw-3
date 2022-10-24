@@ -6,8 +6,14 @@ if (random >= 55 && random <= 99) {
 }
 
 
-const age = 'Якщо Максиму 55 років, то він дорослий';
-console.log(age);
+const age = 55;
+if (0 <= age && age <= 16) {
+    console.log("діти");
+} else if (17 <= age && age <= 60){
+    console.log("дорослі");
+} else if (61 <= age && age <= 100) {
+    console.log("пенсіонери");
+}
 
 
 const firstname = 'Veronika';
